@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+ 
+html,body{
+height: 100%;
+width: 100%;
+}
+
+.know::after{
+    content: '';
+    height: 85%;
+    width: 70%;
+    opacity: 0.5;
+    transform: rotate(160deg);
+    border-radius: 251px;
+    background-color: rgb(230, 136, 230);
+    position: absolute;
+    left: -20%;
+    top: 5%;
+    z-index: -1;
+}
+
+.knows::after{
+    content: '';
+    height: 85%;
+    width: 70%;
+    opacity: 0.5;
+    transform: rotate(160deg);
+    border-radius: 251px;
+    background-color: rgb(230, 136, 230);
+    position: absolute;
+    right: -20%;
+    top: 5%;
+    z-index: -1;
+}
