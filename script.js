@@ -145,7 +145,7 @@ function footer(){
     const footer = document.querySelector('#footer');
     if (footer) {
         footer.innerHTML = `<footer class="bg-black text-white py-8">
-    <div class="container mx-auto flex flex-wrap justify-evenly">
+    <div class="container mx-auto flex px-4 flex-wrap justify-evenly">
         <div class="w-full sm:w-1/2 md:w-1/5 mb-4">
             <h3 class="text-lg font-semibold mb-4">Download Here</h3>
             <div class="flex space-x-4">
@@ -165,8 +165,8 @@ function footer(){
                 </a>
             </div>
         </div> -->
-        <div class="w-full sm:w-1/2 md:w-1/5 mb-4">
-            <h3 class="text-lg font-semibold mb-4">Links</h3>
+        <div class="w-full inline-block  sm:w-1/2 md:w-1/5 mb-4">
+            <h3 class="text-lg font-semibold mb-4">Links</h3>   
             <ul class="space-y-2">
                 <li><a href="#" class="hover:text-gray-300">Home</a></li>
                 <li><a href="#" class="hover:text-gray-300">About</a></li>
